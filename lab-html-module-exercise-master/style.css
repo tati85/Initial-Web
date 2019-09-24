@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.mg-5 {
+    margin: 10px 8px;
+}
+
+.bg-red {
+    background-color: #C12127;
+}
+
+.bg-lred {
+    background-color: rgb(203, 56, 55);
+}
+
+.c-white {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.bg-blue {
+    background-color: rgb(31, 82, 111);
+}
+
+.bg-dblue {
+    background-color: rgb(39, 53, 71);
+}
+
+.bg-yellow {
+    background-color: rgb(240, 146, 51);
+}
+
+.bor-grey {
+    background-color: rgb(34, 92, 125);
+    border: 1px solid lightslategray;
+}
+
+.pdd-2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.fw4 {
+    font-weight: 400;
+}
+
+.sec-heig-600 {
+    height: 600px;
+}
+
+.center {
+    margin-right: auto;
+}
+
+.center-l {
+    margin-left: auto;
+}
+
+.mrg-l-1 {
+    margin-left: 1rem;
+}
+
+.mrg-r-2 {
+    margin-right: 2rem;
+}
+
+.mrg-l-2 {
+    margin-left: 2rem;
+}
+
+.mrg-l-6 {
+    margin-left: 6rem;
+}
+
+.mrg-t-3 {
+    margin-top: 3rem;
+}
+
+.wd-600 {
+    width: 600px;
+}
+
+.wd-700 {
+    width: 700px;
+}
+
+s-letter {
+    letter-spacing: 0.1em;
+}
+
+.ffb {
+    font-family: 'Poppins';
+    letter-spacing: 0.015625em;
+    flex-grow: 1;
+}
+
+.fl-r {
+    float: right;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.pl0 {
+    padding-left: 0;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: left;
+    display: block;
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #000;
+}
+
+h4 {
+    font-size: 1em;
+    letter-spacing: 0.4px;
+    margin-bottom: 15px;
+    color: rgb(83, 88, 98);
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.2em;
+    box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.10196);
+    border-bottom: 1px solid #d2d2d2;
+    flex: 0 0 auto;
+}
+
+header {
+    display: block;
+}
+
+.top-div {
+    height: 40px;
+}
+
+.heart {
+    letter-spacing: 0.015625em;
+    font-size: .875rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    line-height: 1.25;
+}
+
+.acronym {
+    font-family: 'Poppins';
+    flex-grow: 1;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+#g {
+    position: relative;
+    width: 5px;
+}
+
+#npm-img {
+    width: 100px;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
+    position: relative;
+}
+
+.ws-nwg {
+    white-space: nowrap;
+}
+
+.form-in-div {
+    position: relative;
+    flex-grow: 1;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-w {
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-aling-start {
+    align-items: flex-start;
+}
+
+.flex-just-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-just-space-a {
+    justify-content: space-around;
+}
+
+.flex-just-between {
+    justify-content: space-between;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.bbt-round {
+    border-radius: 12px;
+    padding: 5px 15px;
+    border: 0;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.h-inside-div {
+    padding: 0 25px;
+}
+
+#npm {
+    width: 100px;
+    height: 30px;
+}
+
+#install-bbt {
+    background-color: rgb(49, 68, 88);
+}
+
+#bear {
+    width: 30px;
+    height: 30px;
+    padding-left: 8px;
+}
+
+#search-text {
+    width: calc(100% - 30px);
+    padding-left: 10px;
+    float: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    height: 30px;
+    font-weight: 300;
+    position: relative;
+}
+
+#search-bbt {
+    border-left: 0;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.first-sec {
+    background-image: url("./images/city-scape.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sec1 {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 50%;
+    display: block;
+}
+
+.sec1-in {
+    margin-left: 20%;
+}
+
+.sec1-in article {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+#collaboration-img {
+    width: 600px;
+    padding-top: 4rem;
+}
+
+#colab-ul li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.collaboration-div {
+    padding-top: 4rem;
+}
+
+.collaboration-div p {
+    margin-top: 2rem;
+}
+
+#org-bbt {
+    margin-top: 1.5rem;
+}
+
+.npm-sec {
+    background-image: url("./images/forklift.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.npm-div {
+    position: absolute;
+    width: 400px;
+    margin-top: 150px;
+}
+
+.npm-div p {
+    margin-top: 1.5rem;
+}
+
+#install-bbt {
+    margin-top: 1rem;
+}
+
+.img-bot {
+    width: 100px;
+}
+
+.w-150 {
+    width: 15%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.sec-in-last p {
+    text-align: center;
+    color: rgb(135, 145, 156);
+}
+
+.sec-in-last a {
+    text-decoration: none;
+    color: rgb(208, 74, 73);
+}
+
+.f-li {
+    font-size: 1.2rem;
+}
